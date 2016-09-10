@@ -28,4 +28,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Vitor D'Amico - creator, maintainer
+- [vitormd](https://github.com/vitormd) Vitor D'Amico - creator, maintainer
