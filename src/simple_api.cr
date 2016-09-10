@@ -1,4 +1,5 @@
 require "./simple_api/*"
+require "./user/*"
 require "kemal"
 
 module SimpleApi
@@ -11,12 +12,7 @@ module SimpleApi
     "Helo #{name}!"
   end
 
-  get "/json" do |env|
-    {
-      name: env.params.query["name"],
-      age:  env.params.query["age"],
-    }.to_json
-  end
+  User::UserController.new
 end
 
 Kemal.run
