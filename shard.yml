@@ -1,0 +1,12 @@
+name: simple_api
+version: 0.1.0
+
+authors:
+  - Vitor D'Amico <vitordami@gmail.com>
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+
+license: MIT
